@@ -3,7 +3,7 @@ let players = []; // Start empty, fetch from JSON if needed
 
 // Load initial data manually (can fetch from players.json if on a server)
 async function loadPlayers() {
-    const url = 'https://coltonrubenstein-cmyk.github.io/Tier-list-for-comp-in-cheerio-tga/main/players.json';
+    const url = 'https://coltonrubenstein-cmyk.github.io/Tier-list-for-comp-in-cheerio-tga//main/players.json';
     try {
         const response = await fetch(url);
         players = await response.json();
