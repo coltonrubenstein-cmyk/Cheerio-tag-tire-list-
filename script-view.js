@@ -1,5 +1,5 @@
 // URL of the JSON file in your repo
-const DATA_URL = 'https://coltonrubenstein-cmyk.github.io/Tier-list-for-comp-in-cheerio-tga/main/players.json';
+const DATA_URL = 'https://coltonrubenstein-cmyk.github.io/Tier-list-for-comp-in-cheerio-tga//main/players.json';
 
 async function loadPlayers() {
     try {
